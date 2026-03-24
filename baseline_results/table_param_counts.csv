@@ -1,0 +1,6 @@
+model,n_params
+Ours (Hierarchical),16655
+MLP baseline,26767
+LSTM (direct),18127
+LSTM (autoregressive),34369
+Transformer baseline,17647

@@ -1,0 +1,23 @@
+Arithmetic Operations as Dynamical Systems v2.1
+=======================================================
+
+Architecture:
+  OperationEncoder  -> code R^12 + PE confidence gate
+  PE gate           = sigmoid(soft_Hankel_rank(ctx) - theta)
+  HierarchicalDynamics  4 branches gated by CODE not x
+    B0 Additive (linear)  B1 Multiplicative (log-space)
+    B2 Smooth NL (Tanh)   B3 Piecewise (ReLU)
+
+Key results:
+  ops_PE_ord3: 6
+  PE_necessity_FIXED_mse: 0.007020
+  PE_necessity_HIGH_mse: 0.000074
+  silhouette_score: 0.328402
+  mean_pe_confidence: 0.598361
+  code_algebra_linearity_r: 0.999434
+  mean_rollout_mae_smooth: 3415.058659
+
+Outputs in v2_results/:
+  figA-figJ  (figures)
+  tableA-tableJ  (CSV data)
+  summary_report.txt

@@ -1,0 +1,16 @@
+operation,rank_ord1,PE_ord1,rank_ord2,PE_ord2,rank_ord3,PE_ord3,rank_ord4,PE_ord4,rank_ord5,PE_ord5,rank_ord6,PE_ord6,cond_num_ord3
+add_1,1,True,2,True,2,False,2,False,2,False,2,False,2.7586252415063892e+16
+add_3,1,True,2,True,2,False,2,False,2,False,2,False,2.0801888101381844e+16
+add_5,1,True,2,True,2,False,2,False,2,False,2,False,6145425831585976.0
+sub_2,1,True,2,True,2,False,2,False,2,False,2,False,8263080756497946.0
+sub_4,1,True,2,True,2,False,2,False,2,False,2,False,3.451912141379095e+16
+mul_2,1,True,2,True,3,True,4,True,5,True,6,True,69.63410075423603
+mul_3,1,True,2,True,3,True,4,True,5,True,6,True,45.5961334592621
+div_2,1,True,1,False,1,False,1,False,1,False,1,False,
+div_3,1,True,1,False,1,False,1,False,1,False,1,False,3.7591938183025274e+17
+sqrt,1,True,2,True,3,True,4,True,5,True,6,True,279.06650628135594
+affine_1.1x+1,1,True,2,True,2,False,2,False,2,False,2,False,1.2192927158510758e+16
+affine_0.9x+2,1,True,2,True,2,False,2,False,2,False,2,False,5979303343849999.0
+square,1,True,2,True,3,True,4,True,5,True,5,False,23.03638207272543
+mod_add3_17,1,True,2,True,3,True,4,True,5,True,6,True,3.570141463184417
+mod_add7_17,1,True,2,True,3,True,4,True,5,True,6,True,3.173047709431376
